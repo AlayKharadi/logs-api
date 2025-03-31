@@ -13,6 +13,12 @@ cargo run
 
 - You can use the `setup-and-test.sh` bash script to populate the logs folder initially and test things out.
 
+- If you are having issue with running `.sh` script because it's not executable, run the below command:
+
+```bash
+chmod +x ./setup-and-test.sh
+```
+
 - There are two routes to test here, both of which can be tested using the below curl commands:
 
 ```bash
